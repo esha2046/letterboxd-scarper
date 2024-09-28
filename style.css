@@ -1,0 +1,63 @@
+body {
+  background-color : #1D232A;
+  display : flex;
+  flex-direction: column;
+  justify-content : center;
+  align-items : center;
+  height : 100vh;
+  margin : 0 ;
+}
+
+
+h1 {
+  font-family: Graphik-Semibold-Web, sans-serif;
+  display: block;
+  font-size: 2.5em;
+  font-weight: bold;
+  color : #EEF0F2;
+  text-align : center ;
+  margin-top : 50px;
+}
+
+.logo {
+  height : 50px;
+  width : 60px;
+  position : absolute;
+  top : 10px;
+  left : 10px; 
+}
+
+input {
+  position : relative;
+  justify-content : center;
+  padding : 8px;
+  width : 300px;
+}
+
+input::placeholder {
+  font-style : italic;
+}
+
+.container {
+  flex : 1;
+  display : flex;
+  margin-top : 20px;
+}
+
+.submit{
+  display : block;
+  margin : 20px auto 0 auto;
+  justify-content : center;
+  background-color : #00AC1C;
+  padding : 6px;
+  width : 250px;
+  border-radius : 7px;
+  border-style : none;
+  color : white;
+  font-style : italic;
+  font-family: Red Hat Display, aktiv-grotesk, Roboto, Inconsolata, Monaco, Arial, Helvetica, sans-serif;
+}
+
+.submit:hover {
+  background-color : #009B1F;
+}

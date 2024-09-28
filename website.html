@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://fonts.gstatic.com;">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+<body>
+  <img src="logo.png" class="logo"> 
+  <h1 class="title">Letterboxd Recommendation </h1>
+  <div class="container">
+    <form id="rec" action="submit.php" method="post">
+      <input type="text" id="username" placeholder="Letterboxd Username*">
+      <button class="submit"> Get Recommendation </button>
+    </form>
+    <div id="result"></div>
+  </div> 
+  <script src="script.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
